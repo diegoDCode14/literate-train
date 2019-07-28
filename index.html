@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.9.0/js/all.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/toggle.css">
+  <title>IntelStore</title>
+</head>
+<body id="cuerpo">
+<div class="content">
+  <header>
+    <div class="headerContent">
+      <div class="logo"><img src="images/IntelStore.png" alt="" class="imgf"></div>
+      <div class="busqueda">
+        <div class="buscador">
+          <input type="text" class="buscar" id="buscar" placeholder=" &nbsp;Buscar...">
+        </div>
+        <div class="btnBuscar">
+          <button class="btnBuscador" id="btnBuscador"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </header><!--FIN DEL HEADER BUSCADOR-->
+    <div class="barraNav">
+    <ul class="nav">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Articulos</a>
+        <ul>
+          <li><a href=""><i class="fas fa-couch" id="iu"></i>Muebles</a></li>
+          <li><a href=""><i class="fas fa-plug" id="iu"></i>Electrónicos</a></li>
+          <li><a href=""><i class="fas fa-tshirt" id="iu"></i>Moda</a></li>
+          <li><a href=""><i class="fas fa-book" id="iu"></i>Lectura</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="">Cotizaciones</a></li>
+      <li><a href="">Nosotros</a>
+      </li>
+      <li><a href="">Contactos</a>
+        <ul>
+          <li><a href="#"><i class="fab fa-mailchimp" id="iu"></i>diegoduarte100@hotmail.com</a></li>
+          <li><a href="#"><i class="fas fa-phone-alt" id="iu"></i>555-555-555</a></li>
+          <li><a href=""><i class="fas fa-envelope-open-text" id="iu"></i>Correo</a></li>
+        </ul>
+      </li>
+  </ul>
+</div>
+  <div class="image">
+    <h1>Compra fácil y rápido</h1>
+    <h2>Seguro y confiable</h2>
+    <button class="btn-gallery" id="btn-gallery">Galeria</button>
+  </div>
+  <div class="destacados">
+    <div class="msj">
+        <h1>Destacados</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+           Ducimus rerum fugiat culpa voluptates dignissimos consectetur eveniet.</p>
+    </div>
+    <div class="targets">
+    <div class="t1" id="t1">
+      <div class="img1" ><img src="images/iphone.jpg" alt=""id="img1"></div>
+      <h3>Iphone X</h3>
+      <p>Iphone X, uno de los teléfonos <br> más populares del mundo.</p>
+      <div class="btns1">
+        <div class="cant1">
+          <button class="s1" id="s1">+</button>
+          <label class="l1" id="l1"></label>
+          <button class="r1" id="r1">-</button>
+        </div>
+        <div>
+          <button class="envio1" id="envio1">Añadir al carrito</button>
+        </div>
+      </div>
+    </div>
+    <div class="t2" id="t2">
+      <div class="img2"><img src="images/play.jpg" alt="" id="img2"></div>
+      <h3>PlayStation 4</h3>
+      <p>La mejor consola de todos los tiempos, <br>
+      de los siglos. </p>
+      <div class="btns2">
+        <div class="cant2">
+          <button class="s2" id="s2">+</button>
+          <label class="l2" id="l2"></label>
+          <button class="r2" id="r2">-</button>
+        </div>
+        <div>
+          <button class="envio2" id="envio2">Añadir al carrito</button>
+        </div>
+      </div>
+    </div>
+    <div class="t3" id="t3">
+      <div class="img3"><img src="images/alexa.jpg" alt="" id="img3"></div>
+      <h3>Alexa</h3>
+      <p>El asistente de amazon, es el mejor <br> que jamás se haya creado.</p>
+      <div class="btns3">
+        <div class="cant3">
+          <button class="s3" id="s3">+</button>
+          <label class="l3" id="l3"></label>
+          <button class="r3" id="r3">-</button>
+        </div>
+        <div>
+          <button class="envio3" id="envio3">Añadir al carrito</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer>
+    <div class="foot">
+      <div class="f1"><img src="images/IntelStore.png" alt="" class="imgf">
+      <p>Nos encontramos agradecidos por tu visita, vuelve pronto,<br>
+      Lorem ipsum dolor sit amet, consectetu <br>
+      veniam doloremque dicta nulla vitae inventore nam ips<br>
+      vero illum autem soluta sit voluptatum nisi deleniti.</p></div>
+      <div class="f2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sed voluptatum reiciendis reprehenderit!</p>
+        <h3><i class="fab fa-instagram" id="if"></i> Instagram</h3>
+        <h3><i class="fab fa-facebook-square" id="if"></i> Facebook</h3>
+      </div>
+    </div>
+  </footer>
+
+  </div>
+  <div class="btnFlotante">
+      <button id="toggle1"><i class="fas fa-shopping-cart"></i></button>
+      <label id="toggle2"></label>
+  </div>
+  <div class="overlay" id="overlay">
+    <div class="popup" id="popup">
+      <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+    <h1>Galería de artículos</h1>
+    <div class="b1" id="b1">
+        <div class="i1"><img src="images/i1.jpg" alt="" class="imgpopup"></div>
+        <div class="i2"><img src="images/i2.jpg" alt="" class="imgpopup"></div>
+        <div class="i3"><img src="images/i3.jpg" alt="" class="imgpopup"></div>
+    </div>
+    <div class="b2" id="b2">
+        <div class="i4"><img src="images/i4.jpg" alt="" class="imgpopup"></div>
+        <div class="i5"><img src="images/i5.jpg" alt="" class="imgpopup"></div>
+        <div class="i6"><img src="images/i6.jpg" alt="" class="imgpopup"></div>
+    </div>
+    <div class="b3" id="b3">
+        <div class="i7"><img src="images/i7.jpg" alt="" class="imgpopup"></div>
+        <div class="i8"><img src="images/i8.jpg" alt="" class="imgpopup"></div>
+        <div class="i9"><img src="images/i9.jpg" alt="" class="imgpopup"></div>
+    </div>
+  </div>
+</div>
+<div class="overlay2" id="overlay2">
+  <div class="popup2" id="popup2">
+    <a href="#" id="btn-cerrar-popup2" class="btn-cerrar-popup2"><i class="fas fa-times"></i></a>
+    <div class="icon">
+  <i class="fas fa-exclamation-circle" id="excla"></i>
+    </div>
+    <div class="emergency">
+      <h2>Ha ocurrido un error</h2>
+      <p>El buscador no encuentra el siguiente termino: </p>
+    </div>
+  </div>
+</div>
+</body>
+<script src="js/toggle.js"></script>
+<script src="js/todo.js"></script>
+<script src="js/busqueda.js"></script>
+</html>
