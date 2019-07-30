@@ -4,6 +4,7 @@ var popup2=document.getElementById('popup2');
 var overlay2=document.getElementById('overlay2');
 var cerrar2=document.getElementById('btn-cerrar-popup2');
 var termin=document.getElementById('termino');
+var label=document.getElementById('error');
 
 btnBuscador.addEventListener('click',function(){
   if(buscador.value=="Muebles" || buscador.value=="muebles"){
@@ -18,6 +19,7 @@ btnBuscador.addEventListener('click',function(){
 }else{
     overlay2.classList.add('active');
     popup2.classList.add('active');
+    label.innerHTML="["+buscador.value+"]";
 }
 });
 cerrar2.addEventListener('click',function(){

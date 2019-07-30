@@ -1,0 +1,32 @@
+.slider{
+  width:100%;
+  margin:auto;
+  overflow: hidden;
+  margin-bottom:40px;
+}
+.slider ul{
+  paddin:0;
+  display:flex;
+  width:400%;
+  animation: cambio 20s infinite alternate;
+}
+.banner3,.banner2,.banner1{
+  height: 395px;
+  width:1261px;
+}
+.slider li{
+  list-style-type: none;
+}
+.slider img{
+  width:100%;
+}
+@keyframes cambio{
+  0%{margin-left:0;}
+  20%{margin-left:0;}
+  25%{margin-left:-100%;}
+  45%{margin-left:-100%;}
+  50%{margin-left:-200%;}
+  70%{margin-left:-200%;}
+  75%{margin-left:-200%;}
+  100%{margin-left:-300%;}
+}

@@ -12,6 +12,7 @@ background: linear-gradient(90deg, rgba(71,14,102,1) 9%, rgba(105,22,168,1) 52%,
 .logo{
   margin-left:30px;
   line-height:110px;
+  opacity: 0;
 }
 .busqueda{
   display:flex;
@@ -112,4 +113,16 @@ ul,ol{
 #if{
     font-size:25px;
     margin-right:10px;
+}
+.logo.active{
+  animation: logoEntrada .8s ease .3s forwards;
+}
+@keyframes logoEntrada {
+  from{transform:translateX(-25px);
+opacity:0;
+}
+to{
+  transform:translateX(0px);
+  opacity:1;
+}
 }

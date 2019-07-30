@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/toggle.css">
+  <link rel="stylesheet" href="css/flexslider.css">
   <title>IntelStore</title>
 </head>
 <body id="cuerpo">
 <div class="content">
   <header>
     <div class="headerContent">
-      <div class="logo"><img src="images/IntelStore.png" alt="" class="imgf"></div>
+      <div class="logo" id="logo"><img src="images/IntelStore.png" alt="" class="imgf" id="imgf"></div>
       <div class="busqueda">
         <div class="buscador">
           <input type="text" class="buscar" id="buscar" placeholder=" &nbsp;Buscar...">
@@ -54,6 +55,71 @@
     <h2>Seguro y confiable</h2>
     <button class="btn-gallery" id="btn-gallery">Galeria</button>
   </div>
+  <div class="iconos" id="iconos">
+  <div class="tar1">
+    <div class="icel">
+      <i class="fas fa-mobile-alt"></i>
+    </div>
+      <div class="cel">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+          ipsam impedit harum quae accusamus dicta molestias  <br>
+        </div>
+    </div>
+    <div class="tar2">
+    <div class="isecure">
+      <i class="fas fa-lock"></i>
+    </div>
+      <div class="cel">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+        ipsam impedit harum quae accusamus dicta molestias<br>
+        </div>
+    </div>
+    <div class="tar3">
+        <div class="ipay">
+          <i class="far fa-credit-card"></i>
+        </div>
+      <div class="cel">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+          ipsam impedit harum quae accusamus dicta molestias  <br>
+      </div>
+  </div>
+</div>
+
+<div class="funcion">
+  <h1>Como funciona IntelStore</h1>
+  <div class="funcionOjo">
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nihil commodi magni,<br>
+       exercitationem dicta omnis, sint assumenda dolores dolor quibusdam totam quod adipisci <br>
+    </div>
+    <div class="">
+      <i class="far fa-eye" id="iCon"></i>
+    </div>
+  </div>
+  <div class="funcionElegir">
+    <div class="">
+      <i class="far fa-hand-pointer" id="iCon"></i>
+    </div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nihil commodi magni,<br>
+       exercitationem dicta omnis, sint assumenda dolores dolor quibusdam totam quod adipisci <br>
+    </div>
+  </div>
+  <div class="funcionCarrito">
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nihil commodi magni,<br>
+       exercitationem dicta omnis, sint assumenda dolores dolor quibusdam totam quod adipisci <br>
+    </div>
+    <div class="">
+      <i class="fas fa-shopping-cart" id="iCon"></i>
+    </div>
+  </div>
+  <div class="funcionCompra">
+    <div class="">
+      <i class="far fa-credit-card" id="iCon"></i>
+    </div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nihil commodi magni,<br>
+       exercitationem dicta omnis, sint assumenda dolores dolor quibusdam totam quod adipisci <br>
+    </div>
+  </div>
+</div>
   <div class="destacados">
     <div class="msj">
         <h1>Destacados</h1>
@@ -109,6 +175,14 @@
     </div>
     </div>
   </div>
+  <div class="slider">
+    <ul class="slides">
+      <li><img src="images/banner4.jpg" alt="" class="banner1"></li>
+      <li><img src="images/banner3.jpg" alt="" class="banner2"></li>
+      <li><img src="images/banner5.jpg" alt="" class="banner3"></li>
+      <li><img src="images/banner5.jpg" alt="" class="banner3"></li>
+    </ul>
+  </div>
   <footer>
     <div class="foot">
       <div class="f1"><img src="images/IntelStore.png" alt="" class="imgf">
@@ -157,8 +231,10 @@
   <i class="fas fa-exclamation-circle" id="excla"></i>
     </div>
     <div class="emergency">
-      <h2>Ha ocurrido un error</h2>
+      <h1>Ha ocurrido un error</h1>
       <p>El buscador no encuentra el siguiente termino: </p>
+      <label class="error" id="error"></label>
+      <h4>¡Porfavor vuelva a intentarlo!</h4>
     </div>
   </div>
 </div>
